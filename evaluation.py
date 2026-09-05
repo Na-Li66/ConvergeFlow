@@ -11,7 +11,7 @@ from model import LangFlow, LangFlowConfig
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("--model", type=str, default="Continuous-Rivals-Discrete/langflow-owt")
-    parser.add_argument("--data_path", type=str, default="/root/autodl-tmp/code/LangFlow/openwebtext")
+    parser.add_argument("--data_path", type=str, default="/path/openwebtext")
     parser.add_argument("--config_path", type=str, default="config.json")
     parser.add_argument("--num_samples", type=int, default=1024, help="Total number of samples to generate.")
     parser.add_argument("--NFE", type=int, default=256, help="Number of LangFlow denoising steps.")
