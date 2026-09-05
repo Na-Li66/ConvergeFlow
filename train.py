@@ -98,7 +98,7 @@ class LangFlowDDPWrapper(nn.Module):
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("--model", type=str, default="Continuous-Rivals-Discrete/langflow-owt")
-    parser.add_argument("--data_path", type=str, default="/root/autodl-tmp/code/LangFlow/openwebtext")
+    parser.add_argument("--data_path", type=str, default="/path/openwebtext")
     parser.add_argument("--config_path", type=str, default="config.json")
     parser.add_argument("--results_dir", type=str, default="results")
     parser.add_argument("--log_every", type=int, default=100)
